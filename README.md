@@ -135,7 +135,9 @@ Tras conseguir una configuración en la que el modelo híbrido ya presentaba un 
 
 * **Escenario $3$: regularización de los extremos glucémicos** &rarr; `BergmanHybridModel_Scenario3.ipynb`
 
-  Penaliza al modelo si no se ajusta a las desviaciones producidas por los valores extremos correspondientes a episodios de hiperglucemia e hipoglucemia. La adición del nuevo componente en la función de pérdida produce una mejora en las métricas con respecto al Escenario $1$, consiguiendo reducir el MSE global en un $80.3$%. Además, destaca especialmente el caso de un paciente que obtiene una mejora en términos de MSE del $90,30$%. Por último, el análisis de rejilla de error de Clarke indica que aproximadamente un $70$% de las predicciones se encuentran en las zonas A y B (donde se consideran aceptables) y un $40$% en la zona A (donde se consideran precisas). 
+  Penaliza al modelo si no se ajusta a las desviaciones producidas por los valores extremos correspondientes a episodios de hiperglucemia e hipoglucemia. La adición del nuevo componente en la función de pérdida produce una mejora en las métricas con respecto al Escenario $1$, consiguiendo reducir el MSE global en un $80.3$%. Además, destaca especialmente el caso de un paciente que obtiene una mejora en términos de MSE del $90,30$%. Por último, el análisis de rejilla de error de Clarke indica que aproximadamente un $70$% de las predicciones se encuentran en las zonas A y B (donde se consideran aceptables) y un $40$% en la zona A (donde se consideran precisas).
+
+Los archivos `.pth` que contienen el estado de los modelos entrenados se encuentran en el directorio `checkpoints`, clasificados en subdirectorios correspondientes a cada escenario planteado.
 
 ---
 
