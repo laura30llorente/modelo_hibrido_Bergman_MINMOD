@@ -179,6 +179,8 @@ Tras conseguir una configuración en la que el modelo híbrido ya presentaba un 
     * Para realizar el **entrenamiento y validación del modelo híbrido**, ejecutar cualquiera de los tres *notebooks* de escenarios planteados (`BergmanHybridModel_ScenarioN.ipynb`). El programa mostrará la evolución de la *loss* de entrenamiento y validación, generando gráficas comparativas al finalizar cada época. Por último, realizará la evaluación y comparación del modelo híbrido frente al clásico usando las métricas y visualizaciones detalladas.
       
     * Para obtener el conjunto de datos a partir del **simulador simglucose**, ejecutar el *notebook* `DataSimulator.ipynb`. El programa solicitará la configuración deseada para la simulación y generará los archivos CSV con los datos metabólicos de cada paciente, junto con sus correspondientes metadatos.
+      
+    * **NOTA:** Todos los *notebooks* deben situarse en el mismo nivel que el directorio `data`, el cual contiene el conjunto de datos.
    
 ---
 
