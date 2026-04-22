@@ -16,7 +16,7 @@ Asimismo, se realiza una comparación con la resolución numérica del modelo cl
 
 La fuente principal de datos para el trabajo proviene del simulador **simglucose** [^3]. El paquete `simglucose` es una implementación en Python del simulador de diabetes tipo $1$ desarrollado por las universidades de Virginia y Padova. Cuenta con la validación de la Administración de Alimentos y Medicamentos de los Estados Unidos como sustituto aceptado para los ensayos preclínicos para probar tratamientos con insulina y evaluar algoritmos de control glucémico.
 
-Para este trabajo, se ha elegido la simulación de todos los pacientes disponibles, es decir, $30$ sujetos distribuidos en $10$ adultos, $10$ adolescentes y $10$ niños. Cada simulación se desarrolla durante un periodo continuo de $168$ horas ($7$ días completos). Estas configuraciones, junto con otras relacionadas con el sensor de glucosa y la bomba de infusión de insulina, se encuentran en el archivo `DataSimulator.ipynb`. Asimismo, el directorio `data` contiene toda la información y datos generados por el simulador, empleados en el desarrrollo del presente TFG.
+Para este trabajo, se ha elegido la simulación de todos los pacientes disponibles, es decir, $30$ sujetos distribuidos en $10$ adultos, $10$ adolescentes y $10$ niños. Cada simulación se desarrolla durante un periodo continuo de $168$ horas ($7$ días completos). Estas configuraciones, junto con otras relacionadas con el sensor de glucosa y la bomba de infusión de insulina, se encuentran en el archivo `DataSimulator.ipynb`. Asimismo, el directorio `data` contiene toda la información y datos generados por el simulador, empleados en el desarrollo del presente TFG.
 
 ---
 
